@@ -1,9 +1,72 @@
-img { 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+* {
+  margin: 0;
+  padding: 0.7rem;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  background-color: darkturquoise;
+  border-radius: 2rem;
+}
+
+.YouTube {
+  color: red;
+  list-style-type: none;
+  margin-top: 0;
+  padding-top: 0;
+  overflow: hidden;
+  background-color: darkturquoise;
+}
+
+.Instagram {
+  color: purple;
+  list-style-type: none;
+  margin-top: 0;
+  padding-top: 0;
+  overflow: hidden;
+  background-color: darkturquoise;
+}
+
+.Memes {
+  color: blue;
+  list-style-type: none;
+  margin-top: 0;
+  padding-top: 0;
+  overflow: hidden;
+  background-color: darkturquoise;
+}
+
+.loginbutton {
+  margin: 1px;
+  padding: none;
+  background: none;
+  color: black;
+  border-radius: 1rem;
+  background: hotpink;
+  border: 4px solid black;
+}
+
+div {
+  background:none;
+  color: black;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border: 30px solid black;
+}
+
+img {
+  border-style: none;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
 }
 
 div.a {
-  text-align: center;
+  text-align: auto;
+  border: 10px solid blue;
+  border-radius: 10px;
+  
 }
